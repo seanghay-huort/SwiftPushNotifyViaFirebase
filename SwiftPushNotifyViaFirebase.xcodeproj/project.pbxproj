@@ -13,29 +13,12 @@
 		7F42C2DB2AEF916900566921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C2D92AEF916900566921 /* Main.storyboard */; };
 		7F42C2DD2AEF916A00566921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C2DC2AEF916A00566921 /* Assets.xcassets */; };
 		7F42C2E02AEF916A00566921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C2DE2AEF916A00566921 /* LaunchScreen.storyboard */; };
-		7F42C2EB2AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42C2EA2AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.swift */; };
-		7F42C2F52AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42C2F42AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.swift */; };
-		7F42C2F72AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42C2F62AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITestsLaunchTests.swift */; };
+		C81145A806A1551E3E6DBD00 /* Pods_SwiftPushNotifyViaFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AC80691F71F5CEF5DA68F4 /* Pods_SwiftPushNotifyViaFirebase.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7F42C2E72AEF916A00566921 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7F42C2C82AEF916900566921 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F42C2CF2AEF916900566921;
-			remoteInfo = SwiftPushNotifyViaFirebase;
-		};
-		7F42C2F12AEF916A00566921 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7F42C2C82AEF916900566921 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F42C2CF2AEF916900566921;
-			remoteInfo = SwiftPushNotifyViaFirebase;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2F24E99CF37E78D20F8332D4 /* Pods-SwiftPushNotifyViaFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPushNotifyViaFirebase.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPushNotifyViaFirebase/Pods-SwiftPushNotifyViaFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		56AC80691F71F5CEF5DA68F4 /* Pods_SwiftPushNotifyViaFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPushNotifyViaFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F42C2D02AEF916900566921 /* SwiftPushNotifyViaFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPushNotifyViaFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F42C2D32AEF916900566921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F42C2D52AEF916900566921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +27,7 @@
 		7F42C2DC2AEF916A00566921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F42C2DF2AEF916A00566921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F42C2E12AEF916A00566921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F42C2E62AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPushNotifyViaFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F42C2EA2AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPushNotifyViaFirebaseTests.swift; sourceTree = "<group>"; };
-		7F42C2F02AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPushNotifyViaFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F42C2F42AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPushNotifyViaFirebaseUITests.swift; sourceTree = "<group>"; };
-		7F42C2F62AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPushNotifyViaFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBBF0A6749DE4BF09143D28A /* Pods-SwiftPushNotifyViaFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPushNotifyViaFirebase.release.xcconfig"; path = "Target Support Files/Pods-SwiftPushNotifyViaFirebase/Pods-SwiftPushNotifyViaFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,33 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F42C2E32AEF916A00566921 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F42C2ED2AEF916A00566921 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C81145A806A1551E3E6DBD00 /* Pods_SwiftPushNotifyViaFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A04DF1C0490509A1F989C4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F24E99CF37E78D20F8332D4 /* Pods-SwiftPushNotifyViaFirebase.debug.xcconfig */,
+				CBBF0A6749DE4BF09143D28A /* Pods-SwiftPushNotifyViaFirebase.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7182627B3F0599513E3CC1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56AC80691F71F5CEF5DA68F4 /* Pods_SwiftPushNotifyViaFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F42C2C72AEF916900566921 = {
 			isa = PBXGroup;
 			children = (
 				7F42C2D22AEF916900566921 /* SwiftPushNotifyViaFirebase */,
-				7F42C2E92AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests */,
-				7F42C2F32AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests */,
 				7F42C2D12AEF916900566921 /* Products */,
+				5A04DF1C0490509A1F989C4A /* Pods */,
+				7182627B3F0599513E3CC1B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				7F42C2D02AEF916900566921 /* SwiftPushNotifyViaFirebase.app */,
-				7F42C2E62AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.xctest */,
-				7F42C2F02AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +92,6 @@
 			path = SwiftPushNotifyViaFirebase;
 			sourceTree = "<group>";
 		};
-		7F42C2E92AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests */ = {
-			isa = PBXGroup;
-			children = (
-				7F42C2EA2AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.swift */,
-			);
-			path = SwiftPushNotifyViaFirebaseTests;
-			sourceTree = "<group>";
-		};
-		7F42C2F32AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7F42C2F42AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.swift */,
-				7F42C2F62AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITestsLaunchTests.swift */,
-			);
-			path = SwiftPushNotifyViaFirebaseUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F42C2FA2AEF916A00566921 /* Build configuration list for PBXNativeTarget "SwiftPushNotifyViaFirebase" */;
 			buildPhases = (
+				9E60CD55FDED7806ED9D7BD7 /* [CP] Check Pods Manifest.lock */,
 				7F42C2CC2AEF916900566921 /* Sources */,
 				7F42C2CD2AEF916900566921 /* Frameworks */,
 				7F42C2CE2AEF916900566921 /* Resources */,
+				0BB465FD9826328A77CFFA48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,42 +113,6 @@
 			productName = SwiftPushNotifyViaFirebase;
 			productReference = 7F42C2D02AEF916900566921 /* SwiftPushNotifyViaFirebase.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7F42C2E52AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F42C2FD2AEF916A00566921 /* Build configuration list for PBXNativeTarget "SwiftPushNotifyViaFirebaseTests" */;
-			buildPhases = (
-				7F42C2E22AEF916A00566921 /* Sources */,
-				7F42C2E32AEF916A00566921 /* Frameworks */,
-				7F42C2E42AEF916A00566921 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7F42C2E82AEF916A00566921 /* PBXTargetDependency */,
-			);
-			name = SwiftPushNotifyViaFirebaseTests;
-			productName = SwiftPushNotifyViaFirebaseTests;
-			productReference = 7F42C2E62AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7F42C2EF2AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F42C3002AEF916A00566921 /* Build configuration list for PBXNativeTarget "SwiftPushNotifyViaFirebaseUITests" */;
-			buildPhases = (
-				7F42C2EC2AEF916A00566921 /* Sources */,
-				7F42C2ED2AEF916A00566921 /* Frameworks */,
-				7F42C2EE2AEF916A00566921 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7F42C2F22AEF916A00566921 /* PBXTargetDependency */,
-			);
-			name = SwiftPushNotifyViaFirebaseUITests;
-			productName = SwiftPushNotifyViaFirebaseUITests;
-			productReference = 7F42C2F02AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,14 +126,6 @@
 				TargetAttributes = {
 					7F42C2CF2AEF916900566921 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					7F42C2E52AEF916A00566921 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 7F42C2CF2AEF916900566921;
-					};
-					7F42C2EF2AEF916A00566921 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 7F42C2CF2AEF916900566921;
 					};
 				};
 			};
@@ -220,8 +143,6 @@
 			projectRoot = "";
 			targets = (
 				7F42C2CF2AEF916900566921 /* SwiftPushNotifyViaFirebase */,
-				7F42C2E52AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests */,
-				7F42C2EF2AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,21 +158,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F42C2E42AEF916A00566921 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F42C2EE2AEF916A00566921 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB465FD9826328A77CFFA48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftPushNotifyViaFirebase/Pods-SwiftPushNotifyViaFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftPushNotifyViaFirebase/Pods-SwiftPushNotifyViaFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftPushNotifyViaFirebase/Pods-SwiftPushNotifyViaFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E60CD55FDED7806ED9D7BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftPushNotifyViaFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F42C2CC2AEF916900566921 /* Sources */ = {
@@ -264,37 +213,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F42C2E22AEF916A00566921 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F42C2EB2AEF916A00566921 /* SwiftPushNotifyViaFirebaseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F42C2EC2AEF916A00566921 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F42C2F52AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITests.swift in Sources */,
-				7F42C2F72AEF916A00566921 /* SwiftPushNotifyViaFirebaseUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7F42C2E82AEF916A00566921 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7F42C2CF2AEF916900566921 /* SwiftPushNotifyViaFirebase */;
-			targetProxy = 7F42C2E72AEF916A00566921 /* PBXContainerItemProxy */;
-		};
-		7F42C2F22AEF916A00566921 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7F42C2CF2AEF916900566921 /* SwiftPushNotifyViaFirebase */;
-			targetProxy = 7F42C2F12AEF916A00566921 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7F42C2D92AEF916900566921 /* Main.storyboard */ = {
@@ -432,6 +351,7 @@
 		};
 		7F42C2FB2AEF916A00566921 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F24E99CF37E78D20F8332D4 /* Pods-SwiftPushNotifyViaFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +380,7 @@
 		};
 		7F42C2FC2AEF916A00566921 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBF0A6749DE4BF09143D28A /* Pods-SwiftPushNotifyViaFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,82 +407,6 @@
 			};
 			name = Release;
 		};
-		7F42C2FE2AEF916A00566921 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62EMNW6G6D;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = seanghay.SwiftPushNotifyViaFirebaseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPushNotifyViaFirebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftPushNotifyViaFirebase";
-			};
-			name = Debug;
-		};
-		7F42C2FF2AEF916A00566921 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62EMNW6G6D;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = seanghay.SwiftPushNotifyViaFirebaseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPushNotifyViaFirebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftPushNotifyViaFirebase";
-			};
-			name = Release;
-		};
-		7F42C3012AEF916A00566921 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62EMNW6G6D;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = seanghay.SwiftPushNotifyViaFirebaseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftPushNotifyViaFirebase;
-			};
-			name = Debug;
-		};
-		7F42C3022AEF916A00566921 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62EMNW6G6D;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = seanghay.SwiftPushNotifyViaFirebaseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftPushNotifyViaFirebase;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,24 +424,6 @@
 			buildConfigurations = (
 				7F42C2FB2AEF916A00566921 /* Debug */,
 				7F42C2FC2AEF916A00566921 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7F42C2FD2AEF916A00566921 /* Build configuration list for PBXNativeTarget "SwiftPushNotifyViaFirebaseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7F42C2FE2AEF916A00566921 /* Debug */,
-				7F42C2FF2AEF916A00566921 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7F42C3002AEF916A00566921 /* Build configuration list for PBXNativeTarget "SwiftPushNotifyViaFirebaseUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7F42C3012AEF916A00566921 /* Debug */,
-				7F42C3022AEF916A00566921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

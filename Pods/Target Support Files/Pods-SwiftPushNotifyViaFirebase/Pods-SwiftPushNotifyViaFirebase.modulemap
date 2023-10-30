@@ -1,0 +1,6 @@
+framework module Pods_SwiftPushNotifyViaFirebase {
+  umbrella header "Pods-SwiftPushNotifyViaFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}

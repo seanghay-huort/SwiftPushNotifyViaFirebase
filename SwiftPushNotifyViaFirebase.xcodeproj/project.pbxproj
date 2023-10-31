@@ -13,6 +13,7 @@
 		7F42C2DB2AEF916900566921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C2D92AEF916900566921 /* Main.storyboard */; };
 		7F42C2DD2AEF916A00566921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C2DC2AEF916A00566921 /* Assets.xcassets */; };
 		7F42C2E02AEF916A00566921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C2DE2AEF916A00566921 /* LaunchScreen.storyboard */; };
+		7F8EBC442AF0A929008FE4CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F8EBC432AF0A929008FE4CC /* GoogleService-Info.plist */; };
 		C81145A806A1551E3E6DBD00 /* Pods_SwiftPushNotifyViaFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AC80691F71F5CEF5DA68F4 /* Pods_SwiftPushNotifyViaFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		7F42C2DC2AEF916A00566921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F42C2DF2AEF916A00566921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F42C2E12AEF916A00566921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8EBC412AF09420008FE4CC /* SwiftPushNotifyViaFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftPushNotifyViaFirebase.entitlements; sourceTree = "<group>"; };
+		7F8EBC432AF0A929008FE4CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CBBF0A6749DE4BF09143D28A /* Pods-SwiftPushNotifyViaFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPushNotifyViaFirebase.release.xcconfig"; path = "Target Support Files/Pods-SwiftPushNotifyViaFirebase/Pods-SwiftPushNotifyViaFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +51,6 @@
 				2F24E99CF37E78D20F8332D4 /* Pods-SwiftPushNotifyViaFirebase.debug.xcconfig */,
 				CBBF0A6749DE4BF09143D28A /* Pods-SwiftPushNotifyViaFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +83,25 @@
 		7F42C2D22AEF916900566921 /* SwiftPushNotifyViaFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				7F42C2D32AEF916900566921 /* AppDelegate.swift */,
-				7F42C2D52AEF916900566921 /* SceneDelegate.swift */,
+				7F8EBC422AF09A45008FE4CC /* AppDelegate */,
+				7F8EBC412AF09420008FE4CC /* SwiftPushNotifyViaFirebase.entitlements */,
 				7F42C2D72AEF916900566921 /* ViewController.swift */,
 				7F42C2D92AEF916900566921 /* Main.storyboard */,
 				7F42C2DC2AEF916A00566921 /* Assets.xcassets */,
 				7F42C2DE2AEF916A00566921 /* LaunchScreen.storyboard */,
+				7F8EBC432AF0A929008FE4CC /* GoogleService-Info.plist */,
 				7F42C2E12AEF916A00566921 /* Info.plist */,
 			);
 			path = SwiftPushNotifyViaFirebase;
+			sourceTree = "<group>";
+		};
+		7F8EBC422AF09A45008FE4CC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7F42C2D32AEF916900566921 /* AppDelegate.swift */,
+				7F42C2D52AEF916900566921 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F42C2E02AEF916A00566921 /* LaunchScreen.storyboard in Resources */,
+				7F8EBC442AF0A929008FE4CC /* GoogleService-Info.plist in Resources */,
 				7F42C2DD2AEF916A00566921 /* Assets.xcassets in Resources */,
 				7F42C2DB2AEF916900566921 /* Main.storyboard in Resources */,
 			);
@@ -355,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftPushNotifyViaFirebase/SwiftPushNotifyViaFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62EMNW6G6D;
@@ -384,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftPushNotifyViaFirebase/SwiftPushNotifyViaFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62EMNW6G6D;

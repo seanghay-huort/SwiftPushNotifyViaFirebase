@@ -2,29 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>API_KEY</key>
-	<string>AIzaSyA9XyRADinNJeNy57y3VDTb2YuzJZfYSpg</string>
-	<key>GCM_SENDER_ID</key>
-	<string>537308312981</string>
-	<key>PLIST_VERSION</key>
-	<string>1</string>
-	<key>BUNDLE_ID</key>
-	<string>seanghay.SwiftPushNotifyViaFirebase</string>
-	<key>PROJECT_ID</key>
-	<string>pushnotifswiftfirebase</string>
-	<key>STORAGE_BUCKET</key>
-	<string>pushnotifswiftfirebase.appspot.com</string>
-	<key>IS_ADS_ENABLED</key>
-	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
-	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
-	<key>IS_GCM_ENABLED</key>
-	<true></true>
-	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:537308312981:ios:dac92b91f45a913c0f329c</string>
+    <key>CLIENT_ID</key>
+    <string>138220828365-qaiaa0e7qa1glsgtppedj0coissm1m10.apps.googleusercontent.com</string>
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.138220828365-qaiaa0e7qa1glsgtppedj0coissm1m10</string>
+    <key>API_KEY</key>
+    <string>AIzaSyBisQUE6ZbdJQh8Z7T8budIOc4ICQ5OgVg</string>
+    <key>GCM_SENDER_ID</key>
+    <string>138220828365</string>
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    <key>BUNDLE_ID</key>
+    <string>kh.com.kosign.wabooks.ent</string>
+    <key>PROJECT_ID</key>
+    <string>ios---fcm-all-projects</string>
+    <key>STORAGE_BUCKET</key>
+    <string>ios---fcm-all-projects.appspot.com</string>
+    <key>IS_ADS_ENABLED</key>
+    <false></false>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false></false>
+    <key>IS_APPINVITE_ENABLED</key>
+    <true></true>
+    <key>IS_GCM_ENABLED</key>
+    <true></true>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true></true>
+    <key>GOOGLE_APP_ID</key>
+    <string>1:138220828365:ios:b3b3a287e51f68da999b84</string>
 </dict>
 </plist>

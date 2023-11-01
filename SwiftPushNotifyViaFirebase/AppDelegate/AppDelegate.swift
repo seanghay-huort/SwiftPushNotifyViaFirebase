@@ -27,7 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 })
             }
         }
-        application.registerForRemoteNotifications()
         
         FirebaseApp.configure()
         
@@ -61,10 +60,6 @@ extension AppDelegate: MessagingDelegate {
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         
         Messaging.messaging().apnsToken = deviceToken
-        
-        // APNS
-//        let token = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
-//        log("Token===",token)
 
     }
     

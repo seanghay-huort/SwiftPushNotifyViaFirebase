@@ -7,9 +7,7 @@
 
 import UIKit
 import Firebase
-import FirebaseCore
 import UserNotifications
-import Messages
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,8 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        FirebaseApp.configure()
         
         UNUserNotificationCenter.current().delegate = self
         
@@ -32,6 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
         application.registerForRemoteNotifications()
+        
+        FirebaseApp.configure()
+        
+        Messaging.messaging().delegate = self
         
         return true
     }
@@ -52,6 +52,53 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: MessagingDelegate {
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+        print("Firebase registration token: \(String(describing: fcmToken ?? ""))")
+
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+        Messaging.messaging().apnsToken = deviceToken
+        
+        // APNS
+//        let token = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
+//        log("Token===",token)
+
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print(error.localizedDescription)
+    }
+
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        
+        print("didReceiveRemoteNotification \(userInfo)")
+    }
+    
+    public func registerForRemoteNotifications() {
+        
+        // For iOS 10 display notification (sent via APNS)
+        UNUserNotificationCenter.current().delegate = self
+        
+        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+        UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { (granted, error) in
+            
+            switch error {
+            case .none:
+                if granted {
+                    DispatchQueue.main.async {
+                        UIApplication.shared.registerForRemoteNotifications()
+                    }
+                }
+            case .some(let error):
+                print(error)
+            }
+        }
+    }
+}
+
 extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([[.banner, .sound]])
@@ -59,20 +106,6 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         completionHandler()
-    }
-    
-    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print(error)
-    }
-    
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        // 1. Convert device token to string
-        let tokenParts = deviceToken.map { data -> String in
-            return String(format: "%02.2hhx", data)
-        }
-        let token = tokenParts.joined()
-        // 2. Print device token to use for PNs payloads
-        print("Device Token: \(token)")
     }
 }
 
